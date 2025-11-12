@@ -20,7 +20,7 @@ app.use(arcjetMiddleware)
 
 app.use('/api/v1/auth', authRouther)
 app.use('/api/v1/users', userRouter)
-app.use('api/v1/subscriptions', subscriptionRoutes)
+app.use('/api/v1/subscriptions', subscriptionRoutes)
 
 app.use(errorMiddleware);
 

@@ -10,14 +10,14 @@ const aj = arcjet({
   rules: [
     shield({ mode: "LIVE" }),
     
-    detectBot({
-      mode: "LIVE", 
+    // detectBot({
+    //   mode: "LIVE", 
      
-      allow: [
-        "CATEGORY:SEARCH_ENGINE",  // Google, Bing, etc
-         "NAME:POSTMAN",
-      ],
-    }),
+    //   allow: [
+    //     "CATEGORY:SEARCH_ENGINE",  // Google, Bing, etc
+    //      "NAME:POSTMAN",
+    //   ],
+    // }),
    
     tokenBucket({
       mode: "LIVE",
